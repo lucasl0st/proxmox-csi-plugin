@@ -26,7 +26,7 @@ const (
 	DriverSpecVersion = "1.11.0"
 
 	// MaxVolumesPerNode is the maximum number of volumes that can be attached to a node
-	MaxVolumesPerNode = 24
+	MaxVolumesPerNode = 9001
 	// DefaultVolumeSizeBytes is the default size of a volume
 	DefaultVolumeSizeBytes = 10 * GiB
 	// MinChunkSizeBytes is the minimum size of a volume chunk
