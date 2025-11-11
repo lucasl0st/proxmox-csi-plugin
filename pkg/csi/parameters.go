@@ -122,6 +122,7 @@ func ExtractParameters(parameters map[string]string) (StorageParameters, error) 
 		p.WriteSpeedMbps = ptr.Ptr(*p.SpeedMbps)
 	}
 
+	p.Backup = ptr.Ptr(true)
 	return p, nil
 }
 
